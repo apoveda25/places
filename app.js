@@ -17,6 +17,11 @@ const places = [
     title: "Oficina de CodigoFacilito",
     description: "Lorem Ipsum",
     address: "Lorem Ipsum"
+  },
+  {
+    title: "Oficina de CodigoFacilito",
+    description: "Lorem Ipsum",
+    address: "Lorem Ipsum"
   }
 ];
 
