@@ -1,0 +1,29 @@
+{
+  "name": "places",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^3.5.0",
+    "swagger-ui-express": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoveda25/places.git"
+  },
+  "keywords": [
+    "places"
+  ],
+  "author": "Alfredo Poveda <alfpovsistemas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apoveda25/places/issues"
+  },
+  "homepage": "https://github.com/apoveda25/places#readme"
+}
