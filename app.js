@@ -2,8 +2,26 @@ const express = require("express");
 
 const app = express();
 
+const places = [
+  {
+    title: "Oficina de CodigoFacilito",
+    description: "Lorem Ipsum",
+    address: "Lorem Ipsum"
+  },
+  {
+    title: "Oficina de CodigoFacilito",
+    description: "Lorem Ipsum",
+    address: "Lorem Ipsum"
+  },
+  {
+    title: "Oficina de CodigoFacilito",
+    description: "Lorem Ipsum",
+    address: "Lorem Ipsum"
+  }
+];
+
 app.get("/", (req, res) => {
-  res.send("Hola mundo");
+  res.json(places);
 });
 
 app.use(express.static("public"));
